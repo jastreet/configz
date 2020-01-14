@@ -52,8 +52,8 @@ n    (org-alert org-emms org-notebook org-noter org-outline-numbering org-bullet
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
-(load "auctex.el" nil t t)
-(load "preview-latex.el" nil t t)
+;;(load "auctex.el" nil t t)
+;;(load "preview-latex.el" nil t t)
 
 ;;Clear the eshell buffer.
 (defun eshell/clear ()      
