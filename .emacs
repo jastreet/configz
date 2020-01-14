@@ -54,3 +54,8 @@ n    (org-alert org-emms org-notebook org-noter org-outline-numbering org-bullet
 
 (load "auctex.el" nil t t)
 (load "preview-latex.el" nil t t)
+
+;;Clear the eshell buffer.
+(defun eshell/clear ()      
+   (let ((eshell-buffer-maximum-lines 0)) (eshell-truncate-buffer)))
+
