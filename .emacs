@@ -46,8 +46,8 @@ n    (org-alert org-emms org-notebook org-noter org-outline-numbering org-bullet
   (setq windmove-wrap-around t )
 )
 
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
-(defalias 'list-buffers 'ibuffer) ; make ibuffer default
+;;(add-to-list 'default-frame-alist '(fullscreen . maximized))
+;;(defalias 'list-buffers 'ibuffer) ; make ibuffer default
 
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
