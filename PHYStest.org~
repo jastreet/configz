@@ -1,0 +1,11 @@
+#+LaTeX_CLASS: org-plain-latex
+#+OPTIONS: toc:nil
+
+\title{PHYS 122 Test Notes}
+\maketitle
+
+\begin{document}
+
+Hello world, my name jeff. 
+
+\end{document}
